@@ -138,11 +138,11 @@ The connection denied by the filtering and redirect to block page
 
 and by using the public key
 
-    ![2023-05-16 17_40_29-Ubuntu 1  Running  - Oracle VM VirtualBox](https://github.com/adilraad2001/TP4_Sec_Reseaux/assets/99618982/a48dce0e-aabd-475e-bfa1-3226be882237)
+![2023-05-16 17_40_29-Ubuntu 1  Running  - Oracle VM VirtualBox](https://github.com/adilraad2001/TP4_Sec_Reseaux/assets/99618982/a48dce0e-aabd-475e-bfa1-3226be882237)
     
    3. **Conclusion:**
- 
-    In this Practical work creating a firewall using IPCop and setting it up to protect a network has provided valuable insights into network security and the importance of robust protection measures. The implementation and configuration of IPCop as a firewall solution have demonstrated its effectiveness in safeguarding networks against potential threats or some website and unauthorized access using for example ssh access.
+  
+   In this Practical work creating a firewall using IPCop and setting it up to protect a network has provided valuable insights into network security and the importance of robust protection measures. The implementation and configuration of IPCop as a firewall solution have demonstrated its effectiveness in safeguarding networks against potential threats or some website and unauthorized access using for example ssh access.
 
     
     

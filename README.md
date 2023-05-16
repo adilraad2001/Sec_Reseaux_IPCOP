@@ -23,19 +23,16 @@ Realisé Par : Adil Erraad
   
   2. *Outils logiciels :*
     
-    - IpCop
-    - ubuntu
+      - IpCop
+    
+    
+      - ubuntu
    
 ## 2.**Methodology:**
 
-  1- Installation :
-  
-    - First we need to download the image of Ipcop from the officiel website : www.ipcop.org
-    
-    - We need to follow the step of installation
-    
-    
-    selecting the language:
+  1.1 Installation :
+  - First we need to download the image of Ipcop from the officiel website : www.ipcop.org
+  - We need to follow the step of installation
     
 ![2023-05-16 16_59_49-IpCopx  Running  - Oracle VM VirtualBox](https://github.com/adilraad2001/TP4_Sec_Reseaux/assets/99618982/088ce3da-94f4-44a9-add2-1d62ca500b1d)
 
@@ -79,7 +76,7 @@ We need to use the admin account We set a password for it during installation
   There's different type for secure your network by using th ipcop firewall therefore, showing how to use them and reviewing them will take a lot of time.
   Thats why we will showing just Proxy filtering & URL Filter & ssh connection
   
-  - Proxy Filtering :
+  - **_Proxy Filtering :_**
   
       We mean by proxy filtering the capability of the firewall to act as an intermediary between a client device and the internet, allowing for enhanced control and filtering of web traffic. When proxy filtering is enabled in IPCop, web requests from client devices are routed through the IPCop proxy server, which then forwards the requests to the internet on behalf of the client.   
       
@@ -101,7 +98,7 @@ We need to use the admin account We set a password for it during installation
 ![2023-05-16 17_44_57-Ubuntu 1  Running  - Oracle VM VirtualBox](https://github.com/adilraad2001/TP4_Sec_Reseaux/assets/99618982/aa28e8a6-24fb-45ea-b97b-e65a3f8bc266)
 
     
-  - URL Filter :
+  - **_URL Filter :_**
   
       The URL Filter use to involves controlling and restricting access to specific websites based on their URLs (Uniform Resource Locators), which are the addresses used to access web pages or resources on the internet.
      To Block an web site or ip from access without applied the proxy :
@@ -115,14 +112,15 @@ we need before the acticvation to activate the redirection when someone want to 
 
 As u can see in the image we try to block the access to the address 8.8.8.8
 
-      ![2023-05-16 17_33_44-Ubuntu 1  Running  - Oracle VM VirtualBox](https://github.com/adilraad2001/TP4_Sec_Reseaux/assets/99618982/8bbf5798-9ef5-421f-8a45-9c698dc5199d)
+
+![2023-05-16 17_33_44-Ubuntu 1  Running  - Oracle VM VirtualBox](https://github.com/adilraad2001/TP4_Sec_Reseaux/assets/99618982/8bbf5798-9ef5-421f-8a45-9c698dc5199d)
 
 The connection denied by the filtering and redirect to block page
 
 ![2023-05-16 17_33_59-Ubuntu 1  Running  - Oracle VM VirtualBox](https://github.com/adilraad2001/TP4_Sec_Reseaux/assets/99618982/244aecaa-eacd-428d-8cf0-30f25425ea28)
   
   
-  - shh Access:
+  - **_shh Access_**:
 
     In ipcop we use ssh to allows administrators to securely access the firewall's command-line interface (CLI) remotely using SSH. By establishing an SSH connection, administrators can remotely execute commands, configure settings, and manage the IPCop firewall from a trusted location, providing secure administrative access to the firewall.
     And  well try this by check the connection by ssh before activation and when active connection by password and by public key

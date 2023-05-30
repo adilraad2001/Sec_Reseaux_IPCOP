@@ -1,6 +1,6 @@
 # TP4_Sec_Reseaux
   
-![Ubuntu-logo](https://github.com/adilraad2001/TP4_Sec_Reseaux/assets/99618982/3ead7fa6-3cd0-407f-aa5c-6f63b1ea6af8)
+![Ubuntu-logo](https://github.com/adilraad2001/TP4_Sec_Reseaux/assets/99618982/afd938e3-72a8-4526-adbe-ed8728e3e192)
 
 Realisé Par : Adil Erraad
 
@@ -39,6 +39,8 @@ Realisé Par : Adil Erraad
    keyboard input :
 
 ![2023-05-16 17_00_19-TP-Firewall](https://github.com/adilraad2001/TP4_Sec_Reseaux/assets/99618982/593b7ec3-d0b5-4142-a956-732914fa8066)
+![2023-05-16 17_00_19-TP-Firewall](https://github.com/adilraad2001/TP4_Sec_Reseaux/assets/99618982/0ec99e50-e3c1-4933-b3d9-13c025fde127)
+
 
   And follow this by next :
   
@@ -46,30 +48,54 @@ Realisé Par : Adil Erraad
   
   ![2023-05-16 17_02_05-IpCopx  Running  - Oracle VM VirtualBox](https://github.com/adilraad2001/TP4_Sec_Reseaux/assets/99618982/f1a4faa5-1d21-4d7b-8f22-f3d9f3bbd4f3)
   
+  ![2023-05-16 17_02_05-IpCopx  Running  - Oracle VM VirtualBox](https://github.com/adilraad2001/TP4_Sec_Reseaux/assets/99618982/e79d6624-84c7-4002-aff8-d420ac9e7fb6)
+
   ![2023-05-16 17_02_29-TP-Firewall](https://github.com/adilraad2001/TP4_Sec_Reseaux/assets/99618982/8b98dcff-76f0-43dc-970d-ff2787ce5fc7)
+  
+  ![2023-05-16 17_02_29-TP-Firewall](https://github.com/adilraad2001/TP4_Sec_Reseaux/assets/99618982/b5bcf016-aeeb-4416-a049-0b6933760fe5)
+
+  
 
 And now choosing the addresse of the dns and  the configuration of dhcp
 
 ![2023-05-16 17_03_29-IpCopx  Running  - Oracle VM VirtualBox](https://github.com/adilraad2001/TP4_Sec_Reseaux/assets/99618982/c6fffa57-7a25-42b0-8f4f-b21fb26b76a2)
 
+![2023-05-16 17_03_29-IpCopx  Running  - Oracle VM VirtualBox](https://github.com/adilraad2001/TP4_Sec_Reseaux/assets/99618982/cbd9ff02-0149-4100-993d-166c2c782559)
+
+
 ![2023-05-16 17_03_01-IpCopx  Running  - Oracle VM VirtualBox](https://github.com/adilraad2001/TP4_Sec_Reseaux/assets/99618982/05d42622-2dc3-4151-8cce-0f841f8ed7af)
+
+![2023-05-16 17_03_01-IpCopx  Running  - Oracle VM VirtualBox](https://github.com/adilraad2001/TP4_Sec_Reseaux/assets/99618982/8d1e2710-bf36-4c4b-97f0-9b7e9719ece6)
+
 
 After this configuration well get an interface of command line
 
 ![2023-05-16 18_05_40-IpCopx  Running  - Oracle VM VirtualBox](https://github.com/adilraad2001/TP4_Sec_Reseaux/assets/99618982/687559bd-190a-4204-acfe-f4bc4164d120)
 
+![2023-05-16 18_05_40-IpCopx  Running  - Oracle VM VirtualBox](https://github.com/adilraad2001/TP4_Sec_Reseaux/assets/99618982/31409bcf-0983-4d16-929e-ebfdd467f461)
+
+
   Or we can use Machine connected by his DHCP server for get a Graphical interface for administration:
 
 ![2023-05-16 17_10_24-Ubuntu 1  Running  - Oracle VM VirtualBox](https://github.com/adilraad2001/TP4_Sec_Reseaux/assets/99618982/108c46ea-f83c-4933-a497-7ed3b70dea94)
+
+![2023-05-16 17_10_24-Ubuntu 1  Running  - Oracle VM VirtualBox](https://github.com/adilraad2001/TP4_Sec_Reseaux/assets/99618982/765d2e8f-5588-469c-845c-85df1f800632)
+
 
 This machine get an ip addresse from the dhcp server of ipcop so We have the right to get the control Panel of ipcop from this machine:
 Connected in the port 8443
 
 ![2023-05-16 17_14_19-Ubuntu 1  Running  - Oracle VM VirtualBox](https://github.com/adilraad2001/TP4_Sec_Reseaux/assets/99618982/e192d765-173d-4e6f-9c74-8a69530ec92c)
 
+![2023-05-16 17_14_19-Ubuntu 1  Running  - Oracle VM VirtualBox](https://github.com/adilraad2001/TP4_Sec_Reseaux/assets/99618982/e1df7db9-0b6a-4f02-a7a3-149bca157be9)
+
+
 We need to use the admin account We set a password for it during installation
 
 ![2023-05-16 17_27_24-Ubuntu 1  Running  - Oracle VM VirtualBox](https://github.com/adilraad2001/TP4_Sec_Reseaux/assets/99618982/31c8cfca-6bcb-47ce-ade1-61731347cd32)
+
+![2023-05-16 17_27_24-Ubuntu 1  Running  - Oracle VM VirtualBox](https://github.com/adilraad2001/TP4_Sec_Reseaux/assets/99618982/09ca7a48-1ba5-44a7-a37e-e5802e8c501c)
+
 
 2. **Filtreing**
 
@@ -81,10 +107,17 @@ We need to use the admin account We set a password for it during installation
       We mean by proxy filtering the capability of the firewall to act as an intermediary between a client device and the internet, allowing for enhanced control and filtering of web traffic. When proxy filtering is enabled in IPCop, web requests from client devices are routed through the IPCop proxy server, which then forwards the requests to the internet on behalf of the client.   
       
       ![2023-05-16 17_28_04-Ubuntu 1  Running  - Oracle VM VirtualBox](https://github.com/adilraad2001/TP4_Sec_Reseaux/assets/99618982/f80fc556-fb0d-4528-badd-75019ab02efa)
+      
+      ![2023-05-16 17_28_04-Ubuntu 1  Running  - Oracle VM VirtualBox](https://github.com/adilraad2001/TP4_Sec_Reseaux/assets/99618982/decf32d5-d7bb-417d-9963-fa4df0a1a27d)
+
 
       In order to make it work we need to Enable the Web proxy in our Local Network and choose a port for connection
       
 ![2023-05-16 17_28_04-Ubuntu 1  Running  - Oracle VM VirtualBox](https://github.com/adilraad2001/TP4_Sec_Reseaux/assets/99618982/d4dbfa6c-9b77-4d46-8e41-2a3eea3da9b7)
+
+![2023-05-16 17_32_10-Ubuntu 1  Running  - Oracle VM VirtualBox](https://github.com/adilraad2001/TP4_Sec_Reseaux/assets/99618982/f2cc138c-05a7-40db-9b6d-471becf3dabb)
+
+![2023-05-16 17_12_15-Ubuntu 1  Running  - Oracle VM VirtualBox](https://github.com/adilraad2001/TP4_Sec_Reseaux/assets/99618982/6dbe8c53-0376-4c87-be38-2c699540c06f)
 
 ![2023-05-16 17_12_15-Ubuntu 1  Running  - Oracle VM VirtualBox](https://github.com/adilraad2001/TP4_Sec_Reseaux/assets/99618982/29902d51-5500-4bbb-8d71-d4a52974049f)
 
@@ -93,9 +126,15 @@ We need to use the admin account We set a password for it during installation
   
   ![2023-05-16 17_44_47-Ubuntu 1  Running  - Oracle VM VirtualBox](https://github.com/adilraad2001/TP4_Sec_Reseaux/assets/99618982/bc3c54c7-782f-4a77-b6f3-e90b58a10cd9)
   
+  ![2023-05-16 17_44_47-Ubuntu 1  Running  - Oracle VM VirtualBox](https://github.com/adilraad2001/TP4_Sec_Reseaux/assets/99618982/3f2a7087-c8a3-4e52-9077-5febbb348239)
+
+  
   And we can see this in our Proxy log menu
   
 ![2023-05-16 17_44_57-Ubuntu 1  Running  - Oracle VM VirtualBox](https://github.com/adilraad2001/TP4_Sec_Reseaux/assets/99618982/aa28e8a6-24fb-45ea-b97b-e65a3f8bc266)
+
+![2023-05-16 17_44_57-Ubuntu 1  Running  - Oracle VM VirtualBox](https://github.com/adilraad2001/TP4_Sec_Reseaux/assets/99618982/c8da8b5d-7c92-496d-83d0-203204a8ea23)
+
 
     
   - **_URL Filter :_**
@@ -104,10 +143,16 @@ We need to use the admin account We set a password for it during installation
      To Block an web site or ip from access without applied the proxy :
      
      ![2023-05-16 17_32_10-Ubuntu 1  Running  - Oracle VM VirtualBox](https://github.com/adilraad2001/TP4_Sec_Reseaux/assets/99618982/0df56d1b-bc0f-407f-9979-9350456640a8)
+     
+   ![2023-05-16 17_32_10-Ubuntu 1  Running  - Oracle VM VirtualBox](https://github.com/adilraad2001/TP4_Sec_Reseaux/assets/99618982/84cde504-66dd-4983-a0c2-6c2b71af0b10)
+  
 
 we need before the acticvation to activate the redirection when someone want to open this website to redirect automaticaly(in proxy menu) to access denied page:
 
 ![2023-05-16 17_33_36-Ubuntu 1  Running  - Oracle VM VirtualBox](https://github.com/adilraad2001/TP4_Sec_Reseaux/assets/99618982/9bd87e78-23e6-41ee-89bc-df9251862caa)
+
+![2023-05-16 17_33_36-Ubuntu 1  Running  - Oracle VM VirtualBox](https://github.com/adilraad2001/TP4_Sec_Reseaux/assets/99618982/682da6cb-303c-45f2-a989-e1fb868a5493)
+
 
 
 As u can see in the image we try to block the access to the address 8.8.8.8
@@ -115,9 +160,15 @@ As u can see in the image we try to block the access to the address 8.8.8.8
 
 ![2023-05-16 17_33_44-Ubuntu 1  Running  - Oracle VM VirtualBox](https://github.com/adilraad2001/TP4_Sec_Reseaux/assets/99618982/8bbf5798-9ef5-421f-8a45-9c698dc5199d)
 
+![2023-05-16 17_33_44-Ubuntu 1  Running  - Oracle VM VirtualBox](https://github.com/adilraad2001/TP4_Sec_Reseaux/assets/99618982/b8d7e2a6-41e1-40ed-973f-05dd2c352b08)
+
+
 The connection denied by the filtering and redirect to block page
 
 ![2023-05-16 17_33_59-Ubuntu 1  Running  - Oracle VM VirtualBox](https://github.com/adilraad2001/TP4_Sec_Reseaux/assets/99618982/244aecaa-eacd-428d-8cf0-30f25425ea28)
+
+![2023-05-16 17_33_59-Ubuntu 1  Running  - Oracle VM VirtualBox](https://github.com/adilraad2001/TP4_Sec_Reseaux/assets/99618982/f7311d20-90b2-4ea9-9af4-3544544d7425)
+
   
   
   - **_shh Access_**:
@@ -128,17 +179,29 @@ The connection denied by the filtering and redirect to block page
     Before activation we get connection failled and we can see the port using it's not the regular port
     
     ![2023-05-16 17_38_36-Ubuntu 1  Running  - Oracle VM VirtualBox](https://github.com/adilraad2001/TP4_Sec_Reseaux/assets/99618982/99376654-1b3d-40e9-a0d4-c4718006f447)
+    
+    ![2023-05-16 17_38_36-Ubuntu 1  Running  - Oracle VM VirtualBox](https://github.com/adilraad2001/TP4_Sec_Reseaux/assets/99618982/bc50d70e-3e1a-4e95-bba5-8c3ac68fdd91)
+
 
     After activating and accepting the connection by password
     
     ![2023-05-16 17_38_59-Ubuntu 1  Running  - Oracle VM VirtualBox](https://github.com/adilraad2001/TP4_Sec_Reseaux/assets/99618982/5e13c22f-afa1-4b90-8edd-6bc1306d05fb)
     
+    ![2023-05-16 17_38_59-Ubuntu 1  Running  - Oracle VM VirtualBox](https://github.com/adilraad2001/TP4_Sec_Reseaux/assets/99618982/f6cddc49-6eb4-479c-95d5-de5ecd6931a6)
+
+    
 
     ![2023-05-16 17_40_12-Ubuntu 1  Running  - Oracle VM VirtualBox](https://github.com/adilraad2001/TP4_Sec_Reseaux/assets/99618982/dfcc5422-8ac4-4e4c-ada1-03d2df81d7fd)
+    
+    ![2023-05-16 17_40_12-Ubuntu 1  Running  - Oracle VM VirtualBox](https://github.com/adilraad2001/TP4_Sec_Reseaux/assets/99618982/d1fbc351-0102-4569-b764-e70eaaaea01e)
+
 
 and by using the public key
 
 ![2023-05-16 17_40_29-Ubuntu 1  Running  - Oracle VM VirtualBox](https://github.com/adilraad2001/TP4_Sec_Reseaux/assets/99618982/a48dce0e-aabd-475e-bfa1-3226be882237)
+
+![2023-05-16 17_40_29-Ubuntu 1  Running  - Oracle VM VirtualBox](https://github.com/adilraad2001/TP4_Sec_Reseaux/assets/99618982/3a892908-e481-42c7-8380-0f03d1707c5c)
+
     
    3. **Conclusion:**
   
